@@ -1,0 +1,164 @@
+:root {
+    --main-text-color: rgb(51, 51, 51);
+    --second-text-color: rgb(255, 255, 255);
+
+    --main-bg-color: rgb(255, 255, 255);
+    --second-bg-color: rgb(51, 51, 51);
+    --third-bg-color: rgb(91, 91, 91);
+
+    --modal-color: rgb(51, 51, 51);
+    --bakdrop-color: rgba(51, 51, 51, 0.4);
+
+    --acent-color: rgb(181, 149, 113);
+}
+
+body {
+    color: var(--main-text-color);
+    background-color: var(--main-bg-color);
+
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+
+
+.section-titel {
+    color: var(--main-text-color);
+    text-transform: uppercase;
+}
+
+.main-titel {
+    font-size: 20px;
+}
+
+.second-titel {
+    font-size: 64px;
+    line-height: 1.2;
+}
+
+.logo {
+    text-decoration: none;
+}
+
+
+/* header */
+
+.navigate-list {
+    list-style: none;
+}
+
+.navigate-link {
+    color: var(--second-text-color);
+    text-decoration: none;
+}
+
+.navigate-link:hover,
+.navigate-link:focus {
+    color: var(--acent-color)
+}
+
+.btn-servis {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+
+    color: var(--second-text-color);
+    background-color: var(--acent-color);
+}
+
+.btn-servis:hover,
+.btn-servis:focus {
+    color: var(--acent-color);
+    background-color: var(--main-bg-color);
+}
+
+
+
+
+
+
+
+/* said */
+.said-open {
+    background-color: currentColor;
+    border: none;
+    cursor: pointer;
+}
+
+.social-list {
+    list-style: none;
+}
+
+.social-link {
+    text-decoration: none;
+}
+
+
+
+
+
+/* HERO */
+
+.hero {
+    background-color: black;
+}
+
+.hero-titel {
+    font-size: 54px;
+    line-height: 1.4;
+
+    color: var(--second-text-color);
+}
+
+
+
+/* ABOUT */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* deliveri */
+
+.btn {
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 700;
+
+    border: none;
+}
+
+.info {
+    color: var(--second-text-color);
+    background-color: var(--acent-color);
+}
+
+.info:hover,
+.info:focus {
+    color: var(--acent-color);
+    background-color: var(--second-text-color);
+}
+
+
+
+.conditions {
+    color: var(--main-text-color);
+    background-color: var(--mein-bg-color);
+}
+
+.conditions:hover,
+.conditions:focus {
+    color: var(--second-text-color);
+    background-color: var(--main-text-color);
+}
