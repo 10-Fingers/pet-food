@@ -162,3 +162,80 @@ body {
     color: var(--second-text-color);
     background-color: var(--main-text-color);
 }
+
+
+
+
+/* contact */
+
+
+
+
+.delivery-list {
+    list-style: none;
+}
+
+.acent-delivery {}
+
+.accent {
+    font-weight: 700;
+
+    color: var(--acent-color);
+}
+
+.number {
+    font-size: 64px;
+}
+
+.interval {
+    font-size: 32px;
+}
+
+.contact-info {
+    background-color: var(--third-bg-color);
+}
+
+.address>.location {
+    font-size: 16px;
+
+    color: var(--second-text-color);
+}
+
+.address>.tel {
+    font-size: 16px;
+    line-height: 1.4%;
+
+    color: var(--second-text-color);
+    text-decoration: none;
+}
+
+.address>.tel:hover,
+.address>.tel:focus {
+    color: var(--acent-color);
+}
+
+.info-text {
+    color: var(--second-text-color);
+}
+
+.info-titel {
+    font-size: 20px;
+}
+
+
+
+.info-acent {
+    font-weight: 700;
+}
+
+.asq {
+    color: var(--second-text-color);
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.btn.asq:hover,
+.btn.asq:focus {
+    color: var(--second-bg-color);
+    background-color: var(--second-text-color);
+}
